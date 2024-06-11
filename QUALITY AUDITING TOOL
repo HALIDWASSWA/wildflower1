@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+  <title>QUALITY AUDITING TOOL (QAT)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #555;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+    .form-section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>DOCUMENT TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUALITY AUDITING TOOL (QAT)</h1>
+  <br><br><br>
+  <h1>DOCUMENT NUMBER:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UMEME/QAT/OH/QIDTX-007</h1>
+  <br><br><br>
+  <h1>DOCUMENT TYPE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D TX AND OVERHEAD LINE INSPECTION CHECK SHEET</h1>
+  <br><br><br>
+  <h1>LAST REV DATE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March, 2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REVISION NO. 02</h1>
+  <br><br><br>
+  <h1>PART A: GENERAL INFORMATION</h1>
+  <br><br><br>
+  <div class="form-section">
+    <h2>Project category (tick):</h2>
+    <form>
+      <label>
+        <input type="radio" name="choice" value="MEMD SCHEME"> MEMD SCHEME
+      </label>
+      <label>
+        <input type="radio" name="choice" value="MTCE WORKS"> MTCE WORKS
+      </label>
+      <label>
+        <input type="radio" name="choice" value="UMEME PROJECT"> UMEME PROJECT
+      </label>
+      <label>
+        <input type="radio" name="choice" value="OTHERS SPECIFY"> OTHERS SPECIFY
+      </label>
+    </form>
+  </div>
+
+  <div class="form-section">
+    <form>
+      <label>
+        PROJECT NAME:
+        <input type="text" name="project_name">
+      </label>
+      <label>
+        CONTRACTOR:
+        <input type="text" name="contractor">
+      </label>
+      <label>
+        PROJECT OWNER:
+        <input type="text" name="project_owner">
+      </label>
+      <label>
+        QUALITY ASSURANCE REPRESENTATIVE:
+        <input type="text" name="qa_representative">
+      </label>
+    </form>
+  </div>
+
+  <div class="form-section">
+    <form>
+      <label>
+        DISTRICT:
+        <input type="text" name="district">
+      </label>
+      <label>
+        SCHEME NAME:
+        <input type="text" name="scheme_name">
+      </label>
+      <label>
+        FEEDER:
+        <input type="text" name="feeder">
+      </label>
+      <label>
+        LOCATION:
+        <input type="text" name="location">
+      </label>
+      <label>
+        T-OFF LOCATION:
+        <input type="text" name="toff_location">
+      </label>
+      <label>
+        DATE:
+        <input type="date" name="current_date">
+      </label>
+    </form>
+  </div>
+</body>
+</html>
